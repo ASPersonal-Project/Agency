@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     $('.video-switch-container').click(function(){
         const value =  $('.video-switch-btn').hasClass('btnSlide')
-        console.log(value);
+        // console.log(value);
         if(value){
             $('.video-switch-btn').removeClass('btnSlide')
             $('#video').get(0).play()

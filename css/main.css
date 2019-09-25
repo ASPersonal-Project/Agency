@@ -1,3 +1,33 @@
+.section-padding{
+    padding: 3rem 0;
+}
+.flexbox-parent{
+    max-width: 95vw;
+    margin: 2rem auto;
+}
+/* @media screen and (min-width:768px){ */
+    .flexbox-parent-medium{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+/* } */
+.section-title{
+    display: flex;
+    padding: 2rem 1.5rem;
+}
+
+ .section-icon{
+    font-size: 4rem;
+    color: yellow;
+    margin-right: 1rem;
+}
+.section-text{
+    padding-left: 1rem;
+    line-height: 1.5;
+    border-left: 0.33rem solid gray;
+}
 .preloader{
     display: flex;
     justify-content: center;
@@ -170,3 +200,31 @@
         left: 50%;
     }
 }
+.service{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.service-icon{
+    font-size: 4rem;
+    padding: 0.5rem;
+    color: yellow;
+    align-self: center;
+    transition: all 0.5s linear;
+    
+}
+.service:hover .service-icon{
+    background: blue;
+    color: white;
+}
+.service-text{
+    padding: 0.5rem;
+    
+}  
+.service-name {
+    text-transform: capitalize;
+}
+.service-info{
+    width: 70%;
+}
+
