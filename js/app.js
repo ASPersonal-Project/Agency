@@ -18,4 +18,13 @@ $(document).ready(function(){
         }
     })
 
+    $('#project-modal').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        // other options
+        gallery: {
+            enabled: true
+         } // set to true to enable gallery
+      });
+
 }) 
