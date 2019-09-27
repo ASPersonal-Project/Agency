@@ -521,10 +521,15 @@
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+    opacity: 1;
     transition: all 1s ease-in-out;
     cursor: pointer;
     border: 0.3rem solid transparent;
     box-shadow: 0 5px 10px rgba(14, 13, 13,0.5);
+    
+}
+.active{
+    border-color: blue;
 }
 .team-info{
     width: 80%;
