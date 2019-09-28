@@ -607,7 +607,81 @@
         height: 70%;
     }
 }
+/* ########################## */
+.prices{
+    background: gray;
+}
+.pricing-card{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+.price-list{
+    list-style-type: none;
+    
+}
+.price-item{
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem 0;
+    font-size: 2rem;
+}
+.price-title{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.price-value{
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+.price-icon{
+    margin-right: 0.75rem;
+}
+.price-text{
+    text-transform: capitalize;
+}
+.price-link{
+    display: inline-block;
+    /* text-decoration: none; */
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0.5rem 2rem;
+    border: 0.10rem solid white;
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 1s ease;
+}
+.price-link:hover{
+    color: black;
+    background: blue;
+    text-decoration-line: none;
 
+}
+.price-custom{
+    background: white;
+    color: black;
+    border-radius: 2.5rem;
+    transition: all 1s linear;
+}
+.price-custom:hover{
+    transform: translateY(-1.5rem);
+}
+.custom-price-link{
+    color: yellow;
+    border-color: yellow; 
+}
+@media screen and (min-width:768px){
+    .pricing-card{
+        flex: 0 0 clac(50% - 0.8rem);
+    }
+}
+@media screen and (min-width:992px){
+    .pricing-card{
+        flex: 0 0 clac(33.3% - 0.8rem);
+    }
+}
 
 
 
