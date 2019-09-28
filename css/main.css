@@ -682,6 +682,61 @@
         flex: 0 0 clac(33.3% - 0.8rem);
     }
 }
+/* ######blog#################################### */
+.blog-img{
+    width: 100%;
+    display: block;
+}
+.blog-title{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 1rem 0;
+
+}
+.blog-underline{
+    width: 3rem;
+    height: 0.3rem;
+    background: chartreuse;
+    margin-bottom: 1rem;
+}
+.blog-text{
+    line-height: 1.5;
+}
+.blog-link{
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin: 0.75rem 0;
+    color: yellow;
+    border: 0.2rem solid yellow;
+    transition: all 1s ease;
+    text-transform: capitalize;
+
+}
+.blog-link:hover{
+    background: yellow;
+    color: black;
+}
+@media screen and (min-width:768px){
+    .blog{
+        margin: 0;
+    }
+    .blog-info,.blog-img{
+        flex: 0 0 50%;
+    }
+    .bolg-info{
+        align-self: center;
+        padding: 0 2rem;
+    }
+    .blog-reverse{
+        flex-direction: row-reverse;
+    }
+    .blog-text{
+        width: 80%;
+    }
+
+}
 
 
 
