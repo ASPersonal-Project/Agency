@@ -16,7 +16,7 @@ $(document).ready(function(){
             $('.video-switch-btn').addClass('btnSlide')
             $('#video').get(0).pause()
         }
-    })
+    });
 
     $('#project-modal').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
